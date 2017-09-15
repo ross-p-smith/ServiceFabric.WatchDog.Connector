@@ -1,18 +1,19 @@
-﻿using System.Reflection;
-using System.Runtime.CompilerServices;
+﻿using System;
+using System.Reflection;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ServiceFabricUtil")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("ServiceFabric Watchdog Helpers")]
+[assembly: AssemblyDescription("Simple utility to allow Service Fabric services to register with a WatchDog")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ServiceFabricUtil")]
+[assembly: AssemblyCompany("Ross Smith")]
+[assembly: AssemblyProduct("ServiceFabric.Helpers")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
+[assembly: CLSCompliant(true)]
 
 // Setting ComVisible to false makes the types in this assembly not visible
 // to COM components.  If you need to access a type in this assembly from
